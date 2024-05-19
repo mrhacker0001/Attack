@@ -1,0 +1,56 @@
+.Navbar {
+    width: 100%;
+    height: 100px;
+    background: rgba(1, 0, 254, 1);
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    justify-content: space-between;
+}
+
+.triple-card {
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10%;
+}
+
+.triple-card select {
+    width: 100px;
+    height: 50px;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+}
+
+.triple-card button:nth-child(2) {
+    width: 100px;
+    height: 50px;
+    background: none;
+    border: none;
+
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.triple-card button:nth-child(3) {
+    width: 150px;
+    height: 50px;
+    background: none;
+    border: none;
+    background: rgba(21, 21, 223, 1);
+    border-radius: 10px;
+
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+

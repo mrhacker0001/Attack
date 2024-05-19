@@ -1,0 +1,63 @@
+.Second {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    background: rgba(1, 0, 254, 1);
+    display: flex;
+    flex-direction: column;
+    padding: 50px 180px;
+    gap: 4%;
+}
+
+.img1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.img2 {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: -50px;
+}
+
+.Second h1 {
+    font-family: Montserrat;
+    font-size: 124px;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.Second p {
+    width: 50%;
+    font-family: IBM Plex Mono;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 4px;
+}
+
+.Second span {
+    font-family: IBM Plex Mono;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: left;
+    color: #fff;
+}
+
+.Second button {
+    width: 400px;
+    height: 70px;
+    background: none;
+    border: none;
+    background: rgba(23, 248, 113, 1);
+
+
+    font-family: IBM Plex Mono;
+    font-size: 28px;
+    text-align: center;
+    color: rgba(1, 0, 254, 1);
+}
