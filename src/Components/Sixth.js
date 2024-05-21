@@ -9,7 +9,7 @@ function Sixth() {
             <span>Enter your email and get 20% off any Sabio tariff.</span>
             <div className="div">
                 <span>Enter your email:</span>
-                <input type="email" name='email' />
+                <input type="email" name='email' placeholder=' your email' />
                 <button>Get extra discount</button>
             </div>
             <img src={img} alt="..." />

@@ -341,3 +341,356 @@
     font-weight: 600;
     color: rgba(1, 0, 254, 1);
 }
+
+
+
+@media (max-width:390px) {
+    .Fifth {
+        position: relative;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: #fff;
+        gap: 10%;
+        padding: 20% 5%;
+    }
+
+    .hert {
+        position: absolute;
+        top: 8%;
+        left: 10%;
+        font-family: Montserrat;
+        font-size: 42px;
+        font-weight: 500;
+        line-height: 50.4px;
+        text-align: left;
+        color: rgba(1, 0, 254, 1);
+        display: none;
+    }
+
+    .first-cart {
+        width: 85%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 4%;
+    }
+
+    .first-cart h2 {
+        font-family: IBM Plex Mono;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+        color: rgba(1, 0, 254, 1);
+    }
+
+    .first-cart span {
+        font-family: IBM Plex Mono;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        color: rgba(1, 0, 254, 1);
+    }
+
+    .first-cart h3 {
+        font-family: IBM Plex Mono;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+        color: rgba(1, 0, 254, 1);
+    }
+
+    .first-cart p {
+        width: 60%;
+        font-family: IBM Plex Mono;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        color: rgba(95, 98, 160, 1);
+    }
+
+    .second-cart {
+        width: 75%;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 5%;
+        margin-top: 5%;
+        padding-top: 2%;
+        border: 2px dashed rgba(1, 0, 254, 1);
+    }
+
+    .incart {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 6%;
+        margin-bottom: 20%;
+        border: none;
+    }
+
+    .incart h2 {
+        font-family: IBM Plex Mono;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 44px;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color: rgba(1, 0, 254, 1);
+    }
+
+    .incart span {
+        font-family: IBM Plex Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+        color: rgba(1, 0, 254, 1);
+    }
+
+    .incart span:nth-child(6) {
+        font-family: IBM Plex Mono;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: center;
+        color: rgba(23, 248, 113, 1);
+    }
+
+    .incart h3 {
+        font-family: IBM Plex Mono;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 36px;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color: rgba(1, 0, 254, 1);
+    }
+
+    .second-cart button {
+        width: 200px;
+        height: 50px;
+        background: none;
+        border: 4px dashed rgba(1, 0, 254, 1);
+
+        font-family: IBM Plex Mono;
+        font-size: 16px;
+        font-weight: 600;
+        color: rgba(1, 0, 254, 1);
+    }
+
+    .second-cart h1 {
+        font-family: IBM Plex Mono;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 32px;
+        text-align: center;
+        color: rgba(1, 0, 254, 1);
+    }
+
+    .third-cart {
+        width: 75%;
+        height: 500px;
+        background-color: rgba(1, 0, 254, 1);
+        margin-top: 6%;
+        padding-top: 2%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .third-cart h1 {
+        font-family: IBM Plex Mono;
+        font-size: 28px;
+        font-weight: 600;
+        text-align: center;
+        color: #fff;
+    }
+
+    .in-cart {
+        border: none;
+        width: 100%;
+        height: 94%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2%;
+        padding: 10% 0;
+        margin: 0;
+    }
+
+    .in-cart button {
+        width: 90%;
+        height: 10%;
+        background: none;
+        border: none;
+        background: rgba(23, 248, 113, 1);
+
+        font-family: IBM Plex Mono;
+        font-size: 16px;
+        font-weight: 600;
+        color: rgba(1, 0, 254, 1);
+    }
+
+    .in-cart h1 {
+        font-family: IBM Plex Mono;
+        font-size: 36px;
+        font-weight: 600;
+        letter-spacing: -0.01em;
+        color: #fff;
+    }
+
+    .in-cart span {
+        font-family: IBM Plex Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+        color: #fff;
+    }
+
+    .in-cart h2 {
+        font-family: IBM Plex Mono;
+        font-size: 28px;
+        font-weight: 600;
+        letter-spacing: -0.01em;
+        color: #fff;
+    }
+
+    .in-cart h3 {
+        font-family: IBM Plex Mono;
+        font-size: 16px;
+        font-weight: 400;
+        color: rgba(221, 221, 221, 1);
+    }
+
+    .in-cart h3 p {
+        font-family: IBM Plex Mono;
+        font-size: 32px;
+        font-weight: 700;
+        text-align: left;
+        color: rgba(23, 248, 113, 1);
+    }
+
+    .fourth-cart h1 {
+        color: rgba(1, 0, 254, 1);
+    }
+
+    .in-cart h4 {
+        font-family: IBM Plex Mono;
+        font-size: 16px;
+        font-weight: 400;
+        color: rgba(221, 221, 221, 1);
+    }
+
+    .in-cart h4 h3 {
+        font-family: IBM Plex Mono;
+        font-size: 24px;
+        font-weight: 600;
+        color: #fff;
+    }
+
+    .fourth-cart {
+        width: 75%;
+        height: 500px;
+        background-color: #fff;
+        margin-top: 6%;
+        padding-top: 2%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 3px dashed rgba(1, 0, 254, 1);
+    }
+
+
+
+    .in-cartt {
+        width: 100%;
+        height: 94%;
+        margin-top: 0;
+        border-top: 5px dashed #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2%;
+        padding: 10% 0;
+    }
+
+    .in-cartt button {
+        width: 90%;
+        height: 10%;
+        background: none;
+        border: 4px dashed rgba(1, 0, 254, 1);
+
+        font-family: IBM Plex Mono;
+        font-size: 16px;
+        font-weight: 600;
+        color: rgba(1, 0, 254, 1);
+    }
+
+    .in-cartt h1 {
+        font-family: IBM Plex Mono;
+        font-size: 32px;
+        font-weight: 600;
+        letter-spacing: -0.01em;
+        color: rgba(1, 0, 254, 1);
+    }
+
+    .in-cartt span {
+        font-family: IBM Plex Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+        color: rgba(1, 0, 254, 1);
+    }
+
+    .in-cartt h2 {
+        font-family: IBM Plex Mono;
+        font-size: 28px;
+        font-weight: 600;
+        letter-spacing: -0.01em;
+        color: rgba(1, 0, 254, 1);
+    }
+
+    .in-cartt h3 {
+        font-family: IBM Plex Mono;
+        font-size: 16px;
+        font-weight: 400;
+        color: rgba(1, 0, 254, 1);
+    }
+
+    .in-cartt h3 p {
+        font-family: IBM Plex Mono;
+        font-size: 32px;
+        font-weight: 700;
+        text-align: left;
+        color: rgba(23, 248, 113, 1);
+    }
+
+    .in-cartt h4 {
+        font-family: IBM Plex Mono;
+        font-size: 16px;
+        font-weight: 400;
+        color: rgba(1, 0, 254, 1);
+    }
+
+    .in-cartt h4 h3 {
+        font-family: IBM Plex Mono;
+        font-size: 24px;
+        font-weight: 600;
+        color: rgba(1, 0, 254, 1);
+    }
+}
