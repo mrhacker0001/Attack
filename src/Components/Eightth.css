@@ -88,7 +88,7 @@
     }
 
     .message {
-       display: none;
+        display: none;
     }
 
     .Eightth h1 {
@@ -150,5 +150,91 @@
         font-weight: 400;
         line-height: 30px;
         color: #fff;
+    }
+}
+
+
+
+@media (max-width:1450px) {
+    .divv p {
+        font-size: 18px;
+    }
+
+    .divv span {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width:1370px) {
+    .divv p {
+        font-size: 18px;
+    }
+
+    .divv span {
+        font-size: 18px;
+    }
+
+}
+
+
+@media (max-width:1370px) {
+    .Eightth{
+        height: 600px;
+    }
+    .divv {
+        height: 400px;
+    }
+
+    .divv p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width:1250px) {
+    .divv span{
+        font-size: 14px;
+    }
+
+    .message{
+        top: 25%;
+        width: 40%;
+        height: 70%;
+    }
+}
+
+@media (max-width:1100px) {
+    .divv{
+        width: 30%;
+        height: 350px;
+    }
+
+    .divv p{
+        line-height: 15px;
+        font-size: 14px;
+    }
+
+    .divv span{
+        line-height: 20px;
+    }
+}
+
+@media (max-width:1005px) {
+    .divv {
+        width: 30%;
+        height: 350px;
+    }
+
+    .divv p {
+        line-height: 15px;
+        font-size: 14px;
+    }
+
+    .divv span {
+        display: flex;
+        gap: 5%;
+        font-size: 14px;
+        line-height: 20px;
     }
 }

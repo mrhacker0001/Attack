@@ -211,3 +211,10 @@
         margin-top: 5%;
     }
 }
+
+
+@media (max-width:1350px) {
+    .Footer{
+        height: 600px;
+    }
+}

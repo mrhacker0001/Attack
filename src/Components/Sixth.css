@@ -9,6 +9,10 @@
     gap: 5%;
 }
 
+.div input::placeholder {
+    font-size: 0;
+}
+
 .Sixth img {
     position: absolute;
     right: 0;
@@ -131,6 +135,8 @@
         margin-top: 15%;
     }
 
+
+
     .div button {
         margin-top: 10%;
         width: 350px;
@@ -141,5 +147,45 @@
         font-size: 24px;
         font-weight: 600;
         color: rgba(1, 0, 254, 1);
+    }
+}
+
+
+
+@media (max-width:1450px) {
+    .div span {
+        font-size: 28px;
+    }
+}
+
+@media (max-width:1250px) {
+
+
+    .Sixth h1 {
+        font-size: 42px;
+    }
+
+    .Sixth span {
+        font-size: 28px;
+    }
+
+    .div{
+        width: 90%;
+        z-index: 1;
+    }
+
+    .div span {
+        font-size: 18px;
+    }
+
+    .div input{
+        width: 400px;
+    border-bottom: 2px solid;
+    }
+
+    .div button{
+        width: 300px;
+        height: 70px;
+        font-size: 24px;
     }
 }
