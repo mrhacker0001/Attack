@@ -13,7 +13,7 @@
 .double{
     display: flex;
     flex-direction: column;
-    gap: 23%;
+    gap: 24%;
 }
 
 .card {
