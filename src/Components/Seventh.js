@@ -26,6 +26,8 @@ function Seventh() {
             itemsPerGroup = 1;
         } else if (window.innerWidth <= 1100) {
             itemsPerGroup = 2;
+        } else if (window.innerWidth <= 390) {
+            itemsPerGroup = 1;
         } else {
             itemsPerGroup = 3;
         }
@@ -68,7 +70,7 @@ function Seventh() {
                         </div>
                     ))}
                 </SwipeableViews>
-                <button onClick={handleNext}><img src={right} alt="Next" /></button>
+                <button onClick={handleNext} className='next'><img src={right} alt="Next" /></button>
             </div>
             <button className='btn'>Trade with Sabio</button>
         </div>

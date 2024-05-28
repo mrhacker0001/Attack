@@ -81,77 +81,7 @@
 }
 
 
-@media (max-width:390px) {
-    .Slider {
-        width: 100%;
-        height: auto;
-        background-color: #fff;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 5% 0;
-        gap: 5%;
-    }
 
-    .Slider h1 {
-        font-family: Montserrat;
-        font-size: 42px;
-        font-weight: 500;
-        color: rgba(1, 0, 254, 1);
-    }
-
-    .middle-cart {
-        width: 100%;
-        height: 60%;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .middle-cart button {
-        display: none;
-    }
-
-    .carts {
-        width: 90% !important;
-        height: 300px;
-        border: 3px dashed rgba(1, 0, 254, 1);
-        padding: 3% 2%;
-        margin-top: 5%;
-    }
-
-
-
-    .carts h1 {
-        width: 78%;
-        font-family: Montserrat;
-        font-size: 42px;
-        font-weight: 600;
-        color: rgba(1, 0, 254, 1);
-        margin-bottom: 5%;
-    }
-
-    .carts span {
-        font-family: IBM Plex Mono;
-        font-size: 24px;
-        font-weight: 400;
-        color: rgba(1, 0, 254, 1);
-    }
-
-    .btn {
-        width: 250px;
-        height: 70px;
-        border: none;
-        background: none;
-        background-color: rgba(23, 248, 113, 1);
-        margin-top: 5%;
-
-
-        font-family: IBM Plex Mono;
-        font-size: 22px;
-        font-weight: 600;
-        color: rgba(1, 0, 254, 1);
-    }
-}
 
 
 @media (max-width:1550px) {
@@ -181,5 +111,90 @@
         width: 40%;
         height: 300px;
         /* Adjust width for 2 cards */
+    }
+}
+
+
+
+@media (max-width:390px) {
+    .Slider {
+        width: 100%;
+        height: auto;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5% 0;
+        gap: 5%;
+    }
+
+    .Slider h1 {
+        font-family: Montserrat;
+        font-size: 42px;
+        font-weight: 500;
+        color: rgba(1, 0, 254, 1);
+    }
+
+    .middle-cart {
+        position: relative;
+        width: 100%;
+        height: 65%;
+        display: flex;
+        justify-content: flex-start;
+        gap: 0;
+    }
+
+    .cart-group{
+        width: 90%;
+    }
+
+    .carts {
+        width: 70%;
+        height: 300px;
+        border: 3px dashed rgba(1, 0, 254, 1);
+        padding: 1% 2%;
+        margin-top: 5%;
+    }
+
+    .middle-cart button {
+        display: block;
+    }
+
+
+
+    .carts h1 {
+        width: 100%;
+        font-family: Montserrat;
+        font-size: 36px;
+        font-weight: 600;
+        color: rgba(1, 0, 254, 1);
+        margin-bottom: 5%;
+    }
+
+    .carts span {
+        font-family: IBM Plex Mono;
+        font-size: 20px;
+        font-weight: 400;
+        color: rgba(1, 0, 254, 1);
+    }
+
+    .btn {
+        width: 250px;
+        height: 70px;
+        border: none;
+        background: none;
+        background-color: rgba(23, 248, 113, 1);
+        margin-top: 5%;
+
+
+        font-family: IBM Plex Mono;
+        font-size: 22px;
+        font-weight: 600;
+        color: rgba(1, 0, 254, 1);
+    }
+
+    .next {
+        position: absolute;
+        right: 0;
     }
 }

@@ -192,150 +192,7 @@
 
 }
 
-@media (max-width:390px) {
 
-
-    .Third {
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-top: 35%;
-        margin-bottom: 30%;
-    }
-
-    .middle-card {
-        width: 90%;
-        height: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        padding: 0 3%;
-        gap: 10%;
-        border: none;
-    }
-
-    .first {
-        position: relative;
-        width: 100%;
-        height: 300px;
-        background: rgba(1, 0, 254, 1);
-        padding-left: 3%;
-        padding-right: 5%;
-        padding-top: 2%;
-        margin-bottom: 15%;
-    }
-
-    .first img {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-    }
-
-    .first h1 {
-        width: 80%;
-        font-family: Montserrat;
-        font-size: 40px;
-        font-weight: 500;
-        line-height: 50.4px;
-        text-align: left;
-        color: rgba(23, 248, 113, 1);
-        margin-bottom: 5%;
-    }
-
-    .first span {
-        font-family: IBM Plex Mono;
-        font-size: 24px;
-        font-weight: 400;
-        line-height: 28.8px;
-        text-align: left;
-        color: rgba(23, 248, 113, 1);
-    }
-
-    .third {
-        position: relative;
-        width: 100%;
-        height: 200px;
-        background: rgba(1, 0, 254, 1);
-        padding-left: 3%;
-        padding-right: 5%;
-        padding-top: 2%;
-        margin-bottom: 15%;
-    }
-
-    .third img {
-        display: none;
-    }
-
-    .third h1 {
-        width: 70%;
-        font-family: Montserrat;
-        font-size: 40px;
-        font-weight: 500;
-        line-height: 50.4px;
-        text-align: left;
-        color: rgba(23, 248, 113, 1);
-        margin-bottom: 5%;
-    }
-
-    .third h2 {
-        width: 100%;
-        font-family: IBM Plex Mono;
-        font-size: 24px;
-        font-weight: 400;
-        line-height: 28.8px;
-        text-align: left;
-        color: rgba(23, 248, 113, 1);
-    }
-
-    .second {
-        position: relative;
-        width: 100%;
-        height: 200px;
-        background: rgba(1, 0, 254, 1);
-        padding-left: 3%;
-        padding-right: 5%;
-        padding-top: 2%;
-        margin-bottom: 15%;
-    }
-
-    .second img {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-    }
-
-    .second h1 {
-        font-family: Montserrat;
-        font-size: 52px;
-        font-weight: 500;
-        line-height: 50.4px;
-        text-align: left;
-        color: rgba(23, 248, 113, 1);
-        width: 30%;
-    }
-
-    .fourth {
-        position: relative;
-        width: 100%;
-        height: 200px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .fourth h1 {
-        width: 100%;
-        font-family: IBM Plex Mono;
-        font-size: 40px;
-        font-weight: 600;
-        line-height: 40px;
-        text-align: left;
-        color: rgba(1, 0, 254, 1);
-    }
-}
 
 @media (max-width:1360px) {
     .first {
@@ -547,6 +404,152 @@
 }
 
 @media (max-width:750px) {
+
+
+    .Third {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 35%;
+        margin-bottom: 30%;
+    }
+
+    .middle-card {
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 0 3%;
+        gap: 10%;
+        border: none;
+    }
+
+    .first {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        background: rgba(1, 0, 254, 1);
+        padding-left: 3%;
+        padding-right: 5%;
+        padding-top: 2%;
+        margin-bottom: 15%;
+    }
+
+    .first img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    .first h1 {
+        width: 80%;
+        font-family: Montserrat;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 50.4px;
+        text-align: left;
+        color: rgba(23, 248, 113, 1);
+        margin-bottom: 5%;
+    }
+
+    .first span {
+        font-family: IBM Plex Mono;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28.8px;
+        text-align: left;
+        color: rgba(23, 248, 113, 1);
+    }
+
+    .third {
+        position: relative;
+        width: 100%;
+        height: 200px;
+        background: rgba(1, 0, 254, 1);
+        padding-left: 3%;
+        padding-right: 5%;
+        padding-top: 2%;
+        margin-bottom: 15%;
+    }
+
+    .third img {
+        display: none;
+    }
+
+    .third h1 {
+        width: 70%;
+        font-family: Montserrat;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 50.4px;
+        text-align: left;
+        color: rgba(23, 248, 113, 1);
+        margin-bottom: 5%;
+    }
+
+    .third h2 {
+        width: 100%;
+        font-family: IBM Plex Mono;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28.8px;
+        text-align: left;
+        color: rgba(23, 248, 113, 1);
+    }
+
+    .second {
+        position: relative;
+        width: 100%;
+        height: 200px;
+        background: rgba(1, 0, 254, 1);
+        padding-left: 3%;
+        padding-right: 5%;
+        padding-top: 2%;
+        margin-bottom: 15%;
+    }
+
+    .second img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    .second h1 {
+        font-family: Montserrat;
+        font-size: 52px;
+        font-weight: 500;
+        line-height: 50.4px;
+        text-align: left;
+        color: rgba(23, 248, 113, 1);
+        width: 30%;
+    }
+
+    .fourth {
+        position: relative;
+        width: 100%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fourth h1 {
+        width: 100%;
+        font-family: IBM Plex Mono;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 40px;
+        text-align: left;
+        color: rgba(1, 0, 254, 1);
+    }
+}
+
+
+@media (max-width:390px) {
 
 
     .Third {
